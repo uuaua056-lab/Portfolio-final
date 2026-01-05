@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "Dancing Script", cursive;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+   
+ 
+    align-items: center;
+justify-content: space-between;
+background-image: url("./doodle\ items\ \(1\).png");
+
+
+
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+  
+  
+}
+.h1brat{
+    color: #00EEFF ;
+    font-size: 35px;
+    text-shadow: 15px 10px 30px darkblue;
+    
+}
+.menu-btn{
+    display: none;
+    background-color: inherit;
+    color: #00EEFF;
+    font-size: 25px;
+
+}
+
+.iandh{
+    color: white;
+    font-size: 25px;
+    gap: 100px;
+}
+.iandh:hover{
+    color: #00EEFF;
+    transform: scale(1.1);
+    text-shadow: 0 10px 30px rgba(56, 189, 248, 0.6);
+    
+}
+body{
+    background-color: #222831;
+
+}
+.fcard{
+    width: 350px;
+    height: 165px;
+    background-color: rgba(0,229,255,0.25);
+    border-radius: 15px;
+    margin: 35px 0;
+ text-align: center;
+padding-top: 100px;
+transition: 1s;
+}
+.fcard:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 50px rgba(0,229,255,0.25);
+    background-color: darkblue;
+    
+}
+.fcard h1{
+    font-size: 35px;
+    color: white;
+}
+span{
+    color: #00EEFF;
+}
+.fcard p{
+    color: white;
+    margin-top: -80px;
+    font-size: 20px;
+}
+.herosec{
+    display: flex;
+ justify-content: space-between;
+}
+.fcard img{
+    margin-top: 100px;
+}
+.imgp{
+    margin-right: 150px;
+  margin-top: 100px;
+background-image: url("./doodles\ mixed\ round.png");
+background-size: cover;
+background-repeat: no-repeat;
+border: 1px solid #00EEFF;
+border-radius: 20%;
+animation-name: img;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+width: 400px;
+
+
+}
+.long{
+width: 500px;
+height: 130px;
+background-color: rgba(0,229,255,0.25);
+border-radius: 15px;
+padding: 15px;
+margin-top: -160px;
+color: white;
+transition: 1s;
+
+}
+.long:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 50px rgba(0,229,255,0.25);
+    background-color: darkblue;
+}
+@keyframes img{
+    0%{
+       transform: scale(0.5) rotate(0deg); 
+    }
+    50%{
+        transform: scale(1.1) rotate(360deg);  
+    }
+    100%{
+        transform: scale(0.5) rotate(0deg); 
+    }
+}
+.herosecs{
+    margin: 300px 0;
+}
+.yozuv{
+    padding: 15px;
+}
+.yozuv h1{
+    font-size: 64px;
+    color: white;
+
+}
+.lamp{
+    margin-top: -350px;
+    margin-left: 300px;
+    
+}
+.yozuv p{
+    color: white;
+    width: 389px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.lampa{
+    margin-bottom: 50px;
+}
+.herosecs{
+display: flex;
+justify-content: space-between;
+}
+.brat{
+    margin-left: 120px;
+    margin-top: -300px;
+}
+.imgs{
+    margin-left: 100px;
+}
+.projects{
+    padding: 50px 0;
+    background-color:  #222831;
+    background-image: url("./doodle\ items\ \(1\).png");
+}
+.projects h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.projects-box{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.projects-card{
+    width: 380px;
+    background-color: #393E4680;
+ ;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 1s;
+}
+.projects-card img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.projects-card h2{
+    font-size: 28px;
+    color: white;
+    margin: 40px 0;
+}
+.projects-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 50px rgba(0,229,255,0.25);
+    background-color: darkblue;
+
+}
+.projects-box a{
+    text-decoration: none;
+}
+.projects-card h2:hover{
+    color: #00EEFF;
+}
+.herom{
+    margin-top: 100px
+    ;
+    
+
+}
+.kard{
+background: #323946;
+width: 380px;
+height: 309px;
+border-radius: 20px;
+padding: 10px 0;
+transition: 1s;
+}
+.center{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 25px;
+}
+.kard img{
+    margin-left: 150px;
+padding-top: 10px;
+margin-bottom: 10px;
+}
+.kard h2{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.kard p{
+    color: white;
+    text-align: center;
+margin-bottom: 20px;
+}
+.kard button{
+    width: 151px;
+height: 45px;
+border-radius: 40px;
+border: none;
+background-color: #00EEFF;
+color: black;
+font-size: 18px;
+font-weight: 600;
+box-shadow: 0px 0px 10px 0px #00EEFF;
+margin-left: 110px;
+}
+.kard:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 50px rgba(0,229,255,0.25);
+    background-color: darkblue;
+}
+.super{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btnd{
+    margin-top: 15px;
+}
+.hero h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+.hero img{
+    margin-left: 150px;
+}
+.herom{
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bottom{
+    margin-bottom: 400px;
+}
+.two{
+    display: flex;
+    gap: 20px;
+}
+.heros{
+    color: white;
+
+}
+.heros input{
+    width: 288px;
+height: 59px;
+border-radius: 16px;
+font-size: 20px;
+font-weight: 700;
+padding-left: 15px;
+border: 1px solid white;
+}
+.heros h4{
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+.heroth{
+    color: white;
+}
+.heroth input{
+    width: 288px;
+height: 59px;
+border-radius: 16px;
+font-size: 20px;
+font-weight: 700;
+padding-left: 15px;
+border: 1px solid white;
+
+}
+.heroth h4{
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+
+.herof input{
+width: 600px;
+height: 280px;
+gap: 10px;
+opacity: 1;
+border-radius: 16px;
+padding-top: 16px;
+padding-right: 256px;
+padding-bottom: 16px;
+padding-left: 24px;
+
+}
+.herof h4{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+.herof{
+    margin-top: -400px;
+    margin-left: 570px;
+
+}
+.footeraka{
+    padding: 100px 0;
+
+  
+}
+.footeraka a,i{
+    text-decoration: none; 
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+    
+
+}
+.footeraka a{
+    margin-right: 50px;
+
+}
+.iconka{
+    text-align: center;
+margin-bottom: 15px;
+}
+.face{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #393E46;
+   
+
+}
+.face i{
+margin-left: 12px;
+padding-top: 13px;
+}
+.futrr{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.face:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 50px rgba(0,229,255,0.25);
+    background-color: darkblue;
+    transition: 1s;
+}
+.iconka a:hover{
+    transform:translateY(-10px);
+    text-shadow:0 25px 50px rgba(0,229,255,0.25);
+  color: #00EEFF;
+    transition: 1s;
+}
+
+
+
+
+
+@media(max-width: 768px){
+    .menu-btn{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .herosec{
+        flex-direction: column;
+
+    }
+    
+}
